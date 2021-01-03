@@ -34,7 +34,6 @@ function quicksort(input: Array<number>): Array<number> {
   }
 
   while (!isSorted(input)) {
-
     // Create two arrays that will be used for the numbers that are bigger and smaller than the random item we select
     let bigger: Array<number> = [];
     let smaller: Array<number> = [];
