@@ -68,3 +68,4 @@ function quicksort(input: Array<number>): Array<number> {
 }
 
 console.log(quicksort([0, 3, 1, 2]));
+console.log(quicksort([0, 100, 463, 3437, 38473, 1, 284, 577]))
